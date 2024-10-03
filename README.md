@@ -26,7 +26,7 @@ To run this project, you need to have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Chat-Application.git
+git clone https://github.com/JohannBulls/Chat-Application.git
 cd Chat-Application
 ```
 
@@ -157,27 +157,7 @@ Here are some useful Docker commands to manage your MySQL container:
 
 ## Project Structure
 
-```bash
-src
-├── main
-│   ├── java
-│   │   └── edu
-│   │       └── escuelaing
-│   │           └── Chat
-│   │               ├── config           # Spring security and WebSocket configurations
-│   │               ├── controller       # REST and WebSocket controllers
-│   │               ├── model            # Domain models like User and Message
-│   │               ├── repository       # JPA repositories for data access
-│   │               ├── service          # Services that handle business logic
-│   │               └── util             # Utilities like JwtUtil for token handling
-│   └── resources
-│       ├── application.properties       # Application configuration
-└── test
-    └── java
-        └── edu
-            └── escuelaing
-                └── Chat                 # Unit tests for various components
-```
+[![alt text](src/main/resources/static/img/image.png)](https://www.mermaidchart.com/raw/943cdc6b-d011-4bd7-9763-476c05c0be2c?theme=light&version=v0.1&format=svg)
 
 ## License
 
