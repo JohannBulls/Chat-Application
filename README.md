@@ -35,7 +35,7 @@ cd Chat-Application
 You can set up a MySQL instance easily using Docker. The following command will pull the latest MySQL image and start a MySQL container named `mysql-chatdb`.
 
 ```bash
-docker run --name mysql-chatdb -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=chatdb -p 3306:3306 -d mysql:latest
+docker run --name mysql-chatdb -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=chatdb -p 3307:3306 -d mysql:latest
 ```
 
 This command does the following:
@@ -66,14 +66,13 @@ Once you've configured MySQL, you can build and run the application using Maven:
 mvn clean install
 mvn spring-boot:run
 ```
+![alt text](src/main/resources/static/img/Grabación-de-pantalla-Oct-2_-2024.gif)
 
 ### 5. Access the Application
 
 After the application starts, you can access it via:
 
-- **Real-time chat**: `http://localhost:8443/chat`
-- **Login Endpoint**: `http://localhost:8443/auth/login`
-- **User Registration**: `http://localhost:8443/users/register`
+- **Real-time chat**: `https://localhost:8443`
 
 Make sure the application is running with SSL on port 8443, as configured in `application.properties`.
 
